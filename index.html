@@ -12,7 +12,7 @@
         </header>
         <div class="container">  
             <div class="left"><!--LEWA STRONA-->
-                <div class="boxOne" id="box">
+                <div class="boxOne" id="box1" onclick="test(1)">
                     <div id="imageBox">
                         
                         <img src="image/odblokowane.png" alt="iconClicker">
@@ -23,7 +23,7 @@
                     </div>
                 </div>
 
-                <div class="boxTwo" id="box">
+                <div class="boxTwo" id="box" onclick="test(2)">
                     <div id="imageBox">
                         
                         <img src="image/odblokowane.png" alt="iconClicker">
@@ -58,8 +58,12 @@
                 </div>
             </div>
             <div class="center"> <!--ŚRODEK-->
-                <img class = "image1" src="image/kwadracik.png" />
-                <img class="image2" id="ima2" src="image/flake.png" />
+                <div>
+                    <div class = 'centerTxt' id="money"  style="font-size: 100px; text-align: center">
+                        0
+                    </div>
+                </div>
+                <img class="image2" id="ima2" src="image/flake.png" onclick="press()"/>
 
             </div>
             <div class="right"> <!--PRAWA STRONA-->
@@ -116,5 +120,6 @@
             </div>
         </div>
     </div>
+    <script src="./index.js"></script>
     </body>
 </html>
