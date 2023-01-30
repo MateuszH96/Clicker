@@ -199,12 +199,9 @@
     float:right;
 }
 .image2 {
-    
-    
-    border: 1px green solid;
+    max-width: auto;
     display:  block;
     width: 80%;
-    float:center; 
 }
     
 #ima2 {
