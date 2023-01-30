@@ -181,27 +181,18 @@
     background: #79e6ee;
     min-height: 10px;
     border: 6px solid #40a9b0;
-   
-    float:center;
+    position: relative;
 
-}
-
-.center img {
-   float:right; 
-   margin-left:auto;
-   margin-right:auto;
-
-    
 }
 .image1 {
     border: 1px red solid;
     display: block;
-    float:right;
+    margin: 0 auto;
 }
 .image2 {
-    max-width: auto;
     display:  block;
     width: 80%;
+    margin: 0 auto;
 }
     
 #ima2 {
