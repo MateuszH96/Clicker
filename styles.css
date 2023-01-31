@@ -36,6 +36,7 @@
         border-bottom: 6px solid #40a9b0;
         display: flex;
         flex-direction: column;
+        
     }
 
     .leftDiv{  /* Lewa strona POJEDYNCZE KAFELKI*/
@@ -69,6 +70,9 @@
     .boxOne{
         background-image: url('./image/background_locked.png');
         display: inline-flex;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
     } 
     
     .imageBoxClass{
@@ -165,7 +169,4 @@
       -ms-transform: rotate(360deg);
       transform: rotate(360deg)
   }
-  }
-
-      
-    
+  } 

@@ -3,7 +3,7 @@ var autoclick = false
 var moneyPerClick = 1
 var multiply = 1
 var itemBuy =[
-    {name:'Bąbka',  photo:'bauble_',        price: 10,   num:0,    value:1,     costNextLvL:1},
+    {name:'Bombka',  photo:'bauble_',        price: 10,   num:0,    value:1,     costNextLvL:1},
     {name:'Dzwonek',photo:'bells_',         price: 500,   num:0,    value:10,    costNextLvL:100},
     {name:'Elf',    photo:'Elf_',           price: 1000,  num:0,    value:50,    costNextLvL:500},
     {name:'Ciastek',photo:'Gingerbread_',   price: 1500,  num:0,    value:100,   costNextLvL:1000},
