@@ -39,7 +39,6 @@
     }
 
     .leftDiv{  /* Lewa strona POJEDYNCZE KAFELKI*/
-        /* background: white; */
         max-width: 500px;
         height: 140px;
 	    margin:auto;
@@ -71,28 +70,7 @@
         background-image: url('./image/background_locked.png');
         display: inline-flex;
     } 
-    .boxTwo div{
-        display: flex;
-        position:relative;
-        bottom:auto;
-        top:auto;}
-    .boxThree div{
-        display: flex;
-        position:relative;
-        bottom:auto;
-        top:auto;}
-
-    .boxFour div{
-        display: flex;
-        position:relative;
-        bottom:auto;
-        top:auto;}
     
-    .boxFive div{
-        display: flex;
-        position:relative;
-        bottom:auto;
-        top:auto;}
     .imageBoxClass{
         position: relative;
         width: 30%;
@@ -110,12 +88,10 @@
         flex-direction: column;
         justify-content: center;
     }
-
     .rightTop {
         
         background: #19494c;
         min-height: 49%;
-        /*padding: 1px;*/
         border-top: 6px solid #40a9b0;
     }
 
