@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap');
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Clicker</title>
+</head>
+
+<body onload="onLoadFun()">
+    <header>
+        <h1>Clicker</h1>
+    </header>
+    <div class="container">
+        <div class="left"><!--LEWA STRONA-->
+
+            <div class="leftDiv" onclick="buyItem(0)">
+                <div class="boxOne" id="box0">
+                    <div style="width: 40%; margin:auto">
+                        <img id="image0" class=boxImage src="./image/bauble_locked.png">
+                    </div>
+                    <div class="dataInfo">
+                        <div id="name0">Noname</div>
+                        <div id="values0">Ilość: 0</div>
+                        <div id="cost0">Koszt: 0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="leftDiv" onclick="buyItem(1)">
+                <div class="boxOne" id="box1">
+                    <div style="width: 40%; margin:auto">
+                        <img id="image1" class=boxImage src="./image/bauble_locked.png">
+                    </div>
+                    <div class="dataInfo">
+                        <div id="name1">Noname</div>
+                        <div id="values1">Ilość: 0</div>
+                        <div id="cost1">Koszt: 0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="leftDiv" onclick="buyItem(2)">
+                <div class="boxOne" id="box2">
+                    <div style="width: 40%; margin:auto">
+                        <img id="image2" class=boxImage src="./image/bauble_locked.png">
+                    </div>
+                    <div class="dataInfo">
+                        <div id="name2">Noname</div>
+                        <div id="values2">Ilość: 0</div>
+                        <div id="cost2">Koszt: 0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="leftDiv" onclick="buyItem(3)">
+                <div class="boxOne" id="box3">
+                    <div style="width: 40%; margin:auto">
+                        <img id="image3" class=boxImage src="./image/bauble_locked.png">
+                    </div>
+                    <div class="dataInfo">
+                        <div id="name3">Noname</div>
+                        <div id="values3">Ilość: 0</div>
+                        <div id="cost3">Koszt: 0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="leftDiv" onclick="buyItem(4)">
+                <div class="boxOne" id="box4">
+                    <div style="width: 40%; margin:auto">
+                        <img id="image4" class=boxImage src="./image/bauble_locked.png">
+                    </div>
+                    <div class="dataInfo">
+                        <div id="name4">Noname</div>
+                        <div id="values4">Ilość: 0</div>
+                        <div id="cost4">Koszt: 0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="center"> <!--ŚRODEK-->
+            <div>
+                <div class='centerTxt' id="money" style="font-size: 100px; text-align: center">
+                    0
+                </div>
+            </div>
+            <img class="image2" id="ima2" src="image/flake.png" onclick="pressFlake()" />
+
+        </div>
+        <div class="right"> <!--PRAWA STRONA-->
+            <div class="rightTop"> <!--GÓRA-->
+                <div class="row" id="row">
+                    <div id="square">
+
+                        <img id="bonus0" src="image/autoclick_locked.png" alt="iconClicker" onclick="pressAutoClick()">
+                    </div>
+                    <div id="square">
+
+                        <img id="bonus1" src="image/x2_locked.png" alt="iconClicker" onclick="pressBonus(1)">
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+                <div class="row" id="row">
+                    <div id="square2">
+                        <img id="bonus2" src="image/x3_locked.png" alt="iconClicker"onclick="pressBonus(2)">
+                    </div>
+                    <div id="square2">
+
+                        <img id="bonus3" src="image/x5_locked.png" alt="iconClicker"onclick="pressBonus(3)">
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+                <div class="row" id="row">
+                    <div id="square3">
+
+                        <img id="bonus4" src="image/x10_locked.png" alt="iconClicker"onclick="pressBonus(4)">
+                    </div>
+                    <div id="square3">
+
+                        <img id="bonus5" src="image/x100_locked.png" alt="iconClicker" onclick="pressBonus(5)">
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+
+            </div>
+            <div class="rightBottom"> <!--DÓŁ-->
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>

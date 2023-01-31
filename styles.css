@@ -1,0 +1,195 @@
+ body, html {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        background-color: #061123;
+    }
+  
+    header {
+        background-color:#beedf0;
+        color:white;
+        text-align:center;
+        padding:2px;
+        font-family: 'Mountains of Christmas', cursive;
+        font-size: 20px;
+    }
+    .container {
+        background: #40a9b0;
+        height: 850px;
+        display:flex;
+        justify-content: space-around;
+        /*padding:2px; */
+        justify-content: center;
+
+    }
+
+    .container div {
+        width: 100%;
+        margin: 1px;
+        justify-content: center;
+    }
+
+    .left {
+        background: #beedf0;
+        min-height: 10px;
+        border-top: 6px solid #40a9b0;
+        border-bottom: 6px solid #40a9b0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftDiv{  /* Lewa strona POJEDYNCZE KAFELKI*/
+        /* background: white; */
+        max-width: 500px;
+        height: 140px;
+	    margin:auto;
+        display: flex;
+        flex-direction: column;
+        border-top: 3px solid #40a9b0;
+        border-bottom: 5px solid #40a9b0;
+        background-image: url('./image/background_locked.png');
+    }
+    .textInfo{
+        position: relative;
+        margin: 20px 0px;
+        width: 70%;
+    }
+    .dataInfo{
+        align-items: space-around;
+    }
+    .dataInfo div{
+        height: 33%;
+        margin: 0 20px;
+        font-size: 30px;
+    }
+    .boxImage{
+        width: 120px;
+        height: 120px;
+        margin: auto 5px;
+    }
+    .boxOne{
+        background-image: url('./image/background_locked.png');
+        display: inline-flex;
+    } 
+    .boxTwo div{
+        display: flex;
+        position:relative;
+        bottom:auto;
+        top:auto;}
+    .boxThree div{
+        display: flex;
+        position:relative;
+        bottom:auto;
+        top:auto;}
+
+    .boxFour div{
+        display: flex;
+        position:relative;
+        bottom:auto;
+        top:auto;}
+    
+    .boxFive div{
+        display: flex;
+        position:relative;
+        bottom:auto;
+        top:auto;}
+    .imageBoxClass{
+        position: relative;
+        width: 30%;
+    }
+    #imageBox img /* KAFELEK Z LEWYM OBRAZKIEM*/ {
+        height: 120px;
+        width: 130px;
+        position: absolute; 
+        left: 10px;
+        padding-top: 10px;
+    }
+    .right {
+        min-height: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .rightTop {
+        
+        background: #19494c;
+        min-height: 49%;
+        /*padding: 1px;*/
+        border-top: 6px solid #40a9b0;
+    }
+
+    .rightBottom {
+        background: #beedf0;
+        display:flex;
+        min-height: 49%;
+        border-top: 6px solid #40a9b0;
+        border-bottom: 6px solid #40a9b0;
+        /*padding: 1px; */
+    }
+    #square img{
+        height: 125px;
+        width: 145px;
+        float:left;
+        margin-left: 10px;
+        margin-top:10px;
+        margin-right:10px;
+    }
+    #square2 img{
+        height: 125px;
+        width: 145px;
+        float: left;
+        margin-top:10px;
+
+        margin-right:10px;
+        margin-left: 10px;
+    }
+    #square3 img{
+        height: 125px;
+        width: 145px;
+        float: left;
+        margin-left: 10px;
+        margin-top:10px;
+        margin-right:10px;
+
+
+    }
+
+.center {
+    background: #79e6ee;
+    min-height: 10px;
+    border: 6px solid #40a9b0;
+    position: relative;
+
+}
+.image1 {
+    border: 1px red solid;
+    display: block;
+    margin: 0 auto;
+}
+.image2 {
+    display:  block;
+    width: 80%;
+    margin: 0 auto;
+}
+    
+#ima2 {
+    -webkit-animation: ima 10s infinite;			
+    -moz-animation: ima 10s infinite;
+    -ms-animation: ima 10s infinite; 			
+    animation: ima 10s infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;		
+    -ms-animation-timing-function: linear;
+    animation-timing-function: linear	
+  }
+@keyframes ima {
+  100%{ 
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      transform: rotate(360deg)
+  }
+  }
+
+      
+    
