@@ -38,35 +38,38 @@
         flex-direction: column;
     }
 
-    .left div{  /* Lewa strona POJEDYNCZE KAFELKI*/
-        background: white;
+    .leftDiv{  /* Lewa strona POJEDYNCZE KAFELKI*/
+        /* background: white; */
         max-width: 500px;
         height: 140px;
 	    margin:auto;
         display: flex;
-        
+        flex-direction: column;
         border-top: 3px solid #40a9b0;
         border-bottom: 5px solid #40a9b0;
-        
-        /*justify-content: space-between;*/
+        background-image: url('./image/background_locked.png');
     }
-
-    .row_One{
-        display: inline-block;
-        flex-direction: row;
+    .textInfo{
+        position: relative;
+        margin: 20px 0px;
+        width: 70%;
     }
-    .row_Two{
-        flex-direction: row;
+    .dataInfo{
+        align-items: space-around;
     }
-    .rowThree{
-        flex-direction: row;
+    .dataInfo div{
+        height: 33%;
+        margin: 0 20px;
+        font-size: 30px;
     }
-    
-    .boxOne div{
-        display: flex;
-        position:relative;
-        bottom:auto;
-        top:auto;  
+    .boxImage{
+        width: 120px;
+        height: 120px;
+        margin: auto 5px;
+    }
+    .boxOne{
+        background-image: url('./image/background_locked.png');
+        display: inline-flex;
     } 
     .boxTwo div{
         display: flex;
@@ -90,42 +93,16 @@
         position:relative;
         bottom:auto;
         top:auto;}
-
+    .imageBoxClass{
+        position: relative;
+        width: 30%;
+    }
     #imageBox img /* KAFELEK Z LEWYM OBRAZKIEM*/ {
         height: 120px;
         width: 130px;
-        /*margin-left: 10px; */
         position: absolute; 
         left: 10px;
         padding-top: 10px;
-        /*margin: auto; */
-        /*justify-content: left; */
-        background-image: url("./image/bauble_locked.png");
-    }
-
-
-    /*#imageBox img:after /* KAFELEK Z LEWYM OBRAZKIEM*/
-    /* {
-        content: "";
-        height: 130px;
-        width: 100px;
-        /*margin-left: 10px; 
-        position: absolute; 
-        left: 10px;
-        /*margin: auto; */
-        /*justify-content: left; 
-    } */
-
-    #buyBox img /* KAFELEK Z PRAWNYM OBRAZKIEM*/{
-        height: 120px;
-        width: 325px;
-        left: -85px;
-        margin-top: auto;
-        margin-bottom:auto;
-        position: absolute; 
-        padding-top: 10px;
-    
-        /*justify-content: right; */
     }
     .right {
         min-height: 10px;
